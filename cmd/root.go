@@ -11,8 +11,8 @@ import (
 
 var rootCmd = &cobra.Command{
 	Use:   "rdelf2json [file name]",
-	Short: "Convert ELF headers to json",
-	Long:  "Convert ELF headers to json",
+	Short: "Parse ELF and convert to json",
+	Long:  "Parse ELF and convert to json",
 
 	Args: cobra.ExactArgs(1),
 

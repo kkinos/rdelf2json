@@ -2,13 +2,13 @@
 
 CLI application for parsing ELF and converting to json
 
-Install
+## Install
 
 ```bash
 go install github.com/kinpoko/rdelf2json@latest
 ```
 
-Usage
+## Usage
 
 ```bash
 rdelf2json sample/a.out | jq '.elfheader'
